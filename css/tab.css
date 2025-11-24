@@ -1,0 +1,78 @@
+
+
+/* Small tablets / landscape phones */
+
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    border: solid 1px yellow;
+  }
+    .link,
+  .button {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .sec2img {
+    display: none;
+  }
+  .sec2imgmobile {
+    display: block;
+  }
+  .section2wraper {
+    width: 100%;
+  }
+  .sec2buttons {
+    width: 100%;
+  }
+  .section2innerbutton {
+    width: 100%;
+  }
+  .sec2imgmobile {
+    width: 100%;
+  }
+  .sec2imgmobile img {
+    width: 100%;
+  }
+  .sec2heading {
+    text-align: center;
+  }
+  .section2wraper .sec2heading h2 {
+    font-size: 35px;
+  }
+  .section2innerbutton {
+    font-size: 18px;
+    padding: 12px 12px;
+  }
+  .sec2imgtext {
+    width: 100%;
+  }
+  
+}
+
+/* Laptops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .navbar {
+    border: solid 1px green;
+  }
+ 
+}
+
+/* Desktops */
+@media (min-width: 1281px) and (max-width: 1536px) {
+  .navbar {
+    border: solid 1px blue;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1537px) {
+  .navbar {
+    border: solid 1px purple;
+  }
+}

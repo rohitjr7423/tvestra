@@ -1,4 +1,4 @@
-@media (max-width: 526px) {
+@media (max-width: 480px) {
   .link,
   .button {
     display: none;
@@ -12,7 +12,9 @@
   .logo {
     width: 40%;
   }
-
+.navbar{
+  border: solid 1px red;
+}
   .section1 {
     background-color: #6592b6;
     padding: 5% 3%;
@@ -37,8 +39,12 @@
   .location {
     width: 100%;
   }
+  .location input {
+    padding: 5px;
+  }
   .section1button input {
     width: 100%;
+      
   }
   .section1button input::placeholder {
     text-align: start;
@@ -202,23 +208,29 @@
     margin-bottom: 10px;
     justify-content: space-between;
     font-family: "rohitlight";
-    border: solid 1px red;
+
     flood-color: #4a4b5a;
   }
   .fleftmob img {
     width: 50%;
     margin-bottom: 10px;
   }
-  .frightmob ul{
+  .frightmob ul {
     width: 50%;
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
   }
-  .frightmob p{
+  .frightmob p {
     margin-top: 10px;
   }
   .fa-brands {
     font-size: 22px;
+  }
+}
+/* Small tablets / landscape phones */
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar {
+    border: solid 1px orange;
   }
 }
